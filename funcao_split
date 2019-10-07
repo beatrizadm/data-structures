@@ -1,0 +1,6 @@
+#pega uma string, 'um intervalo' e retorna uma lista
+
+def meu_split(texto,separador):
+  for i in range():
+  
+#oh meu deus preciso terminar
