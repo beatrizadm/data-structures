@@ -1,6 +1,11 @@
-#pega uma string, 'um intervalo' e retorna uma lista
-
 def meu_split(texto,separador):
-  for i in range():
+  aux = ''
+  resultado = []
+  for termo in range(len(texto)):
+    if termo != separador:
+      aux += termo
+      continue
+    resultado.append(aux)
+    aux = ''
+  return resultado
   
-#oh meu deus preciso terminar
