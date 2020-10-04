@@ -42,4 +42,4 @@ Repositório para implementar algoritmos e estrutura de dados
 ## 📝 Estrutura de dados
 | Estrutura de dados | Python | Java | C/C++ | Javascript |
 |------|-------|------|------|------|
-| [Fila circular](https://www.devmedia.com.br/fila-circular-dinamica/24572) | Python | Java | C/C++ | Javascript |
+| [Fila circular](https://www.devmedia.com.br/fila-circular-dinamica/24572) | Python | [Java](src/java/fila_circular.java) | C/C++ | Javascript |
