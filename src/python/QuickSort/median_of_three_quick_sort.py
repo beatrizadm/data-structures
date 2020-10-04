@@ -25,25 +25,25 @@ def quickSort(array, leftIndex, rightIndex):
     quickSort(array, i+1, rightIndex)
     
 def mediana(array, ini, fim):
-    a = array[ini];
-    b = array[int((ini+fim)/2)];
-    c = array[fim];
+    a = array[ini]
+    b = array[int((ini+fim)/2)]
+    c = array[fim]
     if (a < b):
         if (b < c):
-            return int((ini+fim)/2);
+            return int((ini+fim)/2)
         else:
             if (a < c) :
-                return fim;
+                return fim
             else:
-                return ini;
+                return ini
     else:
         if (c < b):
-            return int((ini+fim)/2);
+            return int((ini+fim)/2)
         else:
             if (c < a):
-                return fim;
+                return fim
             else:
-                return ini;
+                return ini
 
 tentativas = 0
 #Test
