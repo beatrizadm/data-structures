@@ -24,6 +24,8 @@ Repositório para implementar algoritmos e estrutura de dados
 | Split | [Python](src/python/split.py) | Java | C/C++ | Javascript |
 | Soma | [Python](src/python/plus.py) | Java | C/C++ | Javascript |
 | Vai pro final | [Python](src/python/vai_pro_final.py) | Java | C/C++ | Javascript |
+|Slice | [Python](src/python/slice.py) | Java | C/C++ | Javascript |
+
 
 ### Ordenação
 | Algoritmos | Python | Java | C/C++ | Javascript |
