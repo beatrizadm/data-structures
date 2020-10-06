@@ -4,15 +4,26 @@ Repositório para implementar algoritmos e estrutura de dados
 
 ## Índice
 
--  [Algoritmos](#-algoritmos)
--  [Geral](#geral)
--  [Implementando funções](#implementando-funções)
--  [Ordenação](#ordenação)
--  [Busca](#busca)
--  [Estruturas de dados](#-estrutura-de-dados)
+- [Algoritmos](#-algoritmos)
+  - [Implementando funções](#implementando-funções)
+  - [Geral](#geral)
+  - [Busca](#busca)
+  - [Ordenação](#ordenação)
+- [Estruturas de dados](#-estrutura-de-dados)
 
 
 ## 📝 Algoritmos
+
+
+### Implementando funções
+
+| Algoritmos | Python | Java | C/C++ | Javascript |
+|------|-------|------|------|------|
+| In | [Python](src/python/in.py) | Java | C/C++ | Javascript |
+| Split | [Python](src/python/split.py) | Java | C/C++ | Javascript |
+| Soma | [Python](src/python/plus.py) | Java | C/C++ | [Javascript](src/javascript/FuncaoSoma.js)|
+| Slice | [Python](src/python/slice.py) | Java | C/C++ | Javascript |
+
 
 ### Geral
 
@@ -25,16 +36,16 @@ Repositório para implementar algoritmos e estrutura de dados
 | [Passeio do cavalo](https://pt.wikipedia.org/wiki/Problema_do_cavalo) | Python | Java | C/C++ | Javascript |
 | [Torre de Hanói](https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i) | Python | Java | C/C++ | Javascript |
 
-  
-### Implementando funções
+### Busca
 
 | Algoritmos | Python | Java | C/C++ | Javascript |
 |------|-------|------|------|------|
-| In | [Python](src/python/in.py) | Java | C/C++ | Javascript |
-| Split | [Python](src/python/split.py) | Java | C/C++ | Javascript |
-| Soma | [Python](src/python/plus.py) | Java | C/C++ | [Javascript](src/javascript/FuncaoSoma.js)|
-| Slice | [Python](src/python/slice.py) | Java | C/C++ | Javascript |
-
+| [Busca binária](https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria) | [Python](binary_search.py) | Java | C/C++ | Javascript |
+| [Busca em grafos](https://www.inf.ufsc.br/grafos/represen/busca.html) | Python | Java | C/C++ | Javascript |
+| [Busca sequencial](https://pt.wikipedia.org/wiki/Busca_linear) | Python | Java | C/C++ | Javascript |
+| [Busca sequencial recursiva](https://pt.wikipedia.org/wiki/Busca_linear) | Python | Java | C/C++ | Javascript |
+| [Busca utilizando sentinela](https://updatedcode.wordpress.com/2015/06/16/busca-sequencial-com-sentinela/) | Python | Java | C/C++ | Javascript |
+  
 
 
 ### Ordenação
@@ -50,16 +61,6 @@ Repositório para implementar algoritmos e estrutura de dados
 | [Selection Sort](https://pt.wikipedia.org/wiki/Selection_sort) | [Python](src/python/selection_sort.py) | [Java](src/java/SelectionSort.java) | C/C++ | Javascript |
 
   
-
-### Busca
-
-| Algoritmos | Python | Java | C/C++ | Javascript |
-|------|-------|------|------|------|
-| [Busca binária](https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria) | [Python](binary_search.py) | Java | C/C++ | Javascript |
-| [Busca em grafos](https://www.inf.ufsc.br/grafos/represen/busca.html) | Python | Java | C/C++ | Javascript |
-| [Busca sequencial](https://pt.wikipedia.org/wiki/Busca_linear) | Python | Java | C/C++ | Javascript |
-| [Busca sequencial recursiva](https://pt.wikipedia.org/wiki/Busca_linear) | Python | Java | C/C++ | Javascript |
-| [Busca utilizando sentinela](https://updatedcode.wordpress.com/2015/06/16/busca-sequencial-com-sentinela/) | Python | Java | C/C++ | Javascript |
 
   
 
