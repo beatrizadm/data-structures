@@ -1,7 +1,6 @@
 package src.java;
 
-import java.util.Arrays;
-
+import src.java.*;
 
 
 /**
@@ -12,10 +11,10 @@ import java.util.Arrays;
  * Voce pode assumir que o maior inteiro armazenado não chega a 100.
  *
  */
-public class CountingSort {
+public class CountingSort{
 
 
-	public void sort(Integer[] array, int leftIndex, int rightIndex) {
+	public void sort(int[] array, int leftIndex, int rightIndex) {
 		if( (leftIndex < rightIndex) && (array.length) > 1 && (validIndexes(array, leftIndex,rightIndex)) ) {
 					
 			int k = findHighestValue(array, leftIndex, rightIndex);
@@ -32,7 +31,7 @@ public class CountingSort {
 	
 	
 	
-	private int findHighestValue(Integer[] array, int leftIndex, int rightIndex) {
+	private int findHighestValue(int[] array, int leftIndex, int rightIndex) {
 		
 		int k = array[leftIndex];
 		
@@ -49,9 +48,9 @@ public class CountingSort {
 
 
 
-	private void countingSort(Integer[] initialArray, int k, int leftIndex, int rightIndex) {
+	private void countingSort(int[] initialArray, int k, int leftIndex, int rightIndex) {
 		
-		Integer[] countingArray = new Integer[k + 1];
+		int[] countingArray = new int[k + 1];
 		Arrays.fill(countingArray, 0);
 		
 		// frequencia
@@ -67,7 +66,7 @@ public class CountingSort {
 			
 		}
 		
-		Integer[] orderedArray = new Integer[rightIndex - leftIndex + 1];
+		int[] orderedArray = new int[rightIndex - leftIndex + 1];
 		
 		for(int i = rightIndex; i >= leftIndex; i--){
 			
@@ -85,7 +84,7 @@ public class CountingSort {
 	}
 	
 
-	private boolean validIndexes(Integer[] array, int leftIndex, int rightIndex) {
+	private boolean validIndexes(int[] array, int leftIndex, int rightIndex) {
 		boolean result = true;
 		
 		

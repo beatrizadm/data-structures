@@ -1,4 +1,4 @@
-package java;
+package src.java;
 
 
 
@@ -14,7 +14,7 @@ public class RecursiveBubbleSort{
 	 */
 	
 	
-	public void recursiveBubblesort(Integer[] array, int leftIndex, int rightIndex) {
+	public void recursiveBubblesort(int[] array, int leftIndex, int rightIndex) {
 			
 		if( (leftIndex < rightIndex) &&  (array.length) > 1 && (validIndexes(array, leftIndex,rightIndex)) ) {
 			for(int j = leftIndex; j < rightIndex; j++) {
@@ -31,7 +31,7 @@ public class RecursiveBubbleSort{
 		recursiveBubblesort(array, leftIndex, rightIndex - 1);
 	}
 	
-	private boolean validIndexes(Integer[] array, int leftIndex, int rightIndex) {
+	private boolean validIndexes(int[] array, int leftIndex, int rightIndex) {
 		boolean result = true;
 		
 		
@@ -46,11 +46,11 @@ public class RecursiveBubbleSort{
 		return result;
 	}
 	
-	private static void swap(Object[] array, int i, int j) {
+	private static void swap(int[] array, int i, int j) {
 		if (array == null)
 			throw new IllegalArgumentException();
 
-		Object temp = array[i];
+		int temp = array[i];
 		array[i] = array[j];
 		array[j] = temp;
 	}

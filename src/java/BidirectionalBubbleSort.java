@@ -1,4 +1,4 @@
-package java;
+package src.java;
 
 
 /**
@@ -11,7 +11,7 @@ package java;
 public class BidirectionalBubbleSort{
 	
 	
-	public void BidirectionalBubblesort(Integer[] array, int leftIndex, int rightIndex) {
+	public void BidirectionalBubblesort(int[] array, int leftIndex, int rightIndex) {
 		
 		if( (leftIndex < rightIndex) &&  (array.length) > 1 && (validIndexes(array, leftIndex,rightIndex)) ) {
 			
@@ -26,7 +26,7 @@ public class BidirectionalBubbleSort{
 				
 				for( int i = left; i < rightIndex; i++ ) {
 					
-					if(array[i+1].compareTo(array[i]) < 0) {
+					if(array[i+1] < array[i]) {
 						swap(array, i, i+1);
 						houveTroca = true;
 					}
@@ -37,7 +37,7 @@ public class BidirectionalBubbleSort{
 				
 				for(int j = right; j > left ; j --) {
 					
-					if(array[j-1].compareTo(array[j]) > 0) {
+					if(array[j-1] > array[j]) {
 						swap(array, j-1, j);
 						houveTroca = true;
 					}
@@ -54,7 +54,7 @@ public class BidirectionalBubbleSort{
 						
 	}
 	
-	private boolean validIndexes(Integer[] array, int leftIndex, int rightIndex) {
+	private boolean validIndexes(int[] array, int leftIndex, int rightIndex) {
 		boolean result = true;
 		
 		
@@ -70,11 +70,11 @@ public class BidirectionalBubbleSort{
 	}
 	
 	
-	public static void swap(Object[] array, int i, int j) {
+	public static void swap(int[] array, int i, int j) {
 		if (array == null)
 			throw new IllegalArgumentException();
 
-		Object temp = array[i];
+		int temp = array[i];
 		array[i] = array[j];
 		array[j] = temp;
 	}
