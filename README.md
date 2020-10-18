@@ -31,7 +31,7 @@ Repositório para implementar algoritmos e estrutura de dados
 | [Algoritmo de Dijkstra](https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra) | Python | Java | C/C++ | Javascript |
 | [Algoritmo de Floyd Warshall](https://pt.wikipedia.org/wiki/Algoritmo_de_Floyd-Warshall) | Python | Java | C/C++ | Javascript |
 | [Caixeiro Viajante](https://pt.wikipedia.org/wiki/Problema_do_caixeiro-viajante) | Python | Java | C/C++ | Javascript |
-| [Fibonacci](https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci) | [Python](src/python/fibonacci.py) | [Java](src/java/Fibonacci.java) | C/C++ | [Javascript](src/javascript/fibonacci.js) |
+| [Fibonacci](https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci) | [Python](src/python/fibonacci.py) | [Java](src/java/Fibonacci.java) |[ [C/C++](src/c/fibonacci.cpp) | [Javascript](src/javascript/fibonacci.js) |
 | [Passeio do cavalo](https://pt.wikipedia.org/wiki/Problema_do_cavalo) | Python | Java | C/C++ | Javascript |
 | [Torre de Hanói](https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i) | Python | Java | C/C++ | Javascript |
 | [converterBase](https://panda.ime.usp.br/pythonds/static/pythonds_pt/03-EDBasicos/08-DecimalParaBinario.html#:~:text=Mas%20como%20podemos%20facilmente%20converter,um%20inteiro%20maior%20de%200.) | Python | [Java](src/java/converterBase.java) | C/C++ | Javascript |
