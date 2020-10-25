@@ -41,11 +41,12 @@ Repositório para implementar algoritmos e estrutura de dados
 
 | Algoritmos | Python | Java | C/C++ | Javascript |
 |------|-------|------|------|------|
+|[Busca Linear]()|[Python](src/python/busca_linear.py)| Java | C/C++ | [Javascript](src/javascript/linearSearch.js) |
 | [Busca binária](https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria) | [Python](binary_search.py) | [Java](src/java/BuscaBinariaRecursiva.java) | C/C++ | Javascript |
 | [Busca em grafos](https://www.inf.ufsc.br/grafos/represen/busca.html) | Python | Java | C/C++ | Javascript |
 | [Busca sequencial](https://pt.wikipedia.org/wiki/Busca_linear) | Python | Java | C/C++ | Javascript |
-| [Busca sequencial recursiva](https://pt.wikipedia.org/wiki/Busca_linear) | Python | Java | C/C++ | Javascript |
-| [Busca utilizando sentinela](https://updatedcode.wordpress.com/2015/06/16/busca-sequencial-com-sentinela/) | Python | Java | [C/C++](src/c/BuscaSentinela.c) | Javascript |
+| [Busca sequencial recursiva](https://pt.wikipedia.org/wiki/Busca_linear) | [Python](src/python/busca_recursiva.py) | Java | C/C++ | Javascript |
+| [Busca utilizando sentinela](https://updatedcode.wordpress.com/2015/06/16/busca-sequencial-com-sentinela/) | Python | Java | [C/C++](src/c/BuscaSentinela.c) | [Javascript](src/javascript/buscaLinearComSentinela.js) |
   
 
 
@@ -53,7 +54,7 @@ Repositório para implementar algoritmos e estrutura de dados
 
 | Algoritmos | Python | Java | C/C++ | Javascript |
 |------|-------|------|------|------|
-| [Bongo Sort](https://pt.wikipedia.org/wiki/Bogosort) | Python | Java | C/C++ | Javascript |
+| [Bogo Sort](https://pt.wikipedia.org/wiki/Bogosort) | Python | Java | C/C++ | Javascript |
 | [Bubble Sort](https://pt.wikipedia.org/wiki/Bucket_sort) | [Python](src/python/bubble_sort.py) | [Java](src/java/BubbleSort) | C/C++ | [Javascript](src/javascript/bubbleSort.js) |
 | [Bucket Sort](https://pt.wikipedia.org/wiki/Bucket_sort) | Python | Java | C/C++ | Javascript |
 | [Counting Sort](https://pt.wikipedia.org/wiki/Counting_sort) | Python | [Java](src/java/CountingSort.java) | C/C++ | Javascript |
