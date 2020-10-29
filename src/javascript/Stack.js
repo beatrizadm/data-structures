@@ -1,28 +1,24 @@
 class Stack {
     constructor() {
         this.items = [];
-        this.tail = -1;
     }
 
     push(element) {
-        this.tail += 1;
-        this.items[this.tail] = element;
+        this.items[this.items.length] = element;
     }
 
     pop() {
         if(this.isEmpty()) {
             throw Error("StackUnderflow");
         }
-        const element = this.items[this.tail];
-        this.tail -= 1;
-        return element;
+        return this.items.pop();
     }
 
     peek() {
-        return this.items[this.tail];
+        return this.items[this.items.length - 1];
     }
 
     isEmpty() {
-        return this.tail === -1;
+        return this.items.length === 0;
     }
 }
