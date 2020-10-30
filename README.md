@@ -60,7 +60,7 @@ Repositório para implementar algoritmos e estrutura de dados
 | [Counting Sort](https://pt.wikipedia.org/wiki/Counting_sort) | Python | [Java](src/java/CountingSort.java) | C/C++ | Javascript |
 | [Insertion Sort](https://pt.wikipedia.org/wiki/Insertion_sort) | Python | [Java](src/java/InsertionSortRecursivo.java) | C/C++ | [Javascript](src/javascript/insertionSort.js) |
 | [Quick Sort](https://pt.wikipedia.org/wiki/Quicksort) | [Python](src/python/QuickSort) | [Java](src/java/QuickSort) | C/C++ | Javascript |
-| [Merge Sort](https://pt.wikipedia.org/wiki/Merge_sort) | [Python](src/python/MergeSort) | [Java](src/java/MergeSort.java) | C/C++ | Javascript |
+| [Merge Sort](https://pt.wikipedia.org/wiki/Merge_sort) | [Python](src/python/MergeSort) | [Java](src/java/MergeSort.java) | C/C++ | [Javascript](src/javascript/mergeSort.js) |
 | [Selection Sort](https://pt.wikipedia.org/wiki/Selection_sort) | [Python](src/python/selection_sort.py) | [Java](src/java/SelectionSort.java) | C/C++ | [Javascript](src/javascript/selectionSort.js) |
 
   
