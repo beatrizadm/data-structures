@@ -42,7 +42,7 @@ Repositório para implementar algoritmos e estrutura de dados
 | Algoritmos | Python | Java | C/C++ | Javascript |
 |------|-------|------|------|------|
 |[Busca Linear](https://pt.wikipedia.org/wiki/Busca_linear#:~:text=Na%20%C3%A1rea%20de%20inform%C3%A1tica%2C%20ou,%C3%A9%20linear%2C%20ou%20seja%2C%20cresce)|[Python](src/python/busca_linear.py)| Java | C/C++ | [Javascript](src/javascript/linearSearch.js) |
-| [Busca binária](https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria) | [Python](binary_search.py) | [Java](src/java/BuscaBinariaRecursiva.java) | C/C++ | Javascript |
+| [Busca binária](https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria) | [Python](src/python/binary_search.py) | [Java](src/java/BuscaBinariaRecursiva.java) | [C/C++](src/c/BuscaBinariaRecursiva.cpp) | Javascript |
 | [Busca em grafos](https://www.inf.ufsc.br/grafos/represen/busca.html) | Python | Java | C/C++ | Javascript |
 | [Busca sequencial](https://pt.wikipedia.org/wiki/Busca_linear) | Python | Java | C/C++ | Javascript |
 | [Busca sequencial recursiva](https://pt.wikipedia.org/wiki/Busca_linear) | [Python](src/python/busca_recursiva.py) | Java | C/C++ | Javascript |
