@@ -10,8 +10,8 @@ void swap(int vector[], int i, int j){
 }
 
 void bubbleSort(int vector[], int leftIndex, int rightIndex){
-    for (int i = leftIndex; i < rightIndex; i++)
-        for (int j = leftIndex; j < rightIndex; j++)
+    for (int i = rightIndex; i > leftIndex; i--)
+        for (int j = leftIndex; j < i; j++)
             if (vector[j] > vector[j+1])
                 swap(vector, j, j+1);  
 }
@@ -38,7 +38,7 @@ int main(){
     cout << "Array antes do sort: ";
     printArray(array, n);
 
-    bubbleSort(array, n);
+    bubbleSort(array, 0, 3);
     cout << "Array depois do sort: ";
     printArray(array, n);
 }
