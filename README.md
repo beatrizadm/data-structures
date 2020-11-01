@@ -55,7 +55,7 @@ Repositório para implementar algoritmos e estrutura de dados
 | Algoritmos | Python | Java | C/C++ | Javascript |
 |------|-------|------|------|------|
 | [Bogo Sort](https://pt.wikipedia.org/wiki/Bogosort) | Python | Java | C/C++ | Javascript |
-| [Bubble Sort](https://pt.wikipedia.org/wiki/Bucket_sort) | [Python](src/python/bubble_sort.py) | [Java](src/java/BubbleSort) | C/C++ | [Javascript](src/javascript/bubbleSort.js) |
+| [Bubble Sort](https://pt.wikipedia.org/wiki/Bucket_sort) | [Python](src/python/bubble_sort.py) | [Java](src/java/BubbleSort) | [C/C++](src/c/BubbleSort.cpp) | [Javascript](src/javascript/bubbleSort.js) |
 | [Bucket Sort](https://pt.wikipedia.org/wiki/Bucket_sort) | Python | Java | C/C++ | Javascript |
 | [Counting Sort](https://pt.wikipedia.org/wiki/Counting_sort) | Python | [Java](src/java/CountingSort.java) | C/C++ | Javascript |
 | [Insertion Sort](https://pt.wikipedia.org/wiki/Insertion_sort) | Python | [Java](src/java/InsertionSortRecursivo.java) | C/C++ | [Javascript](src/javascript/insertionSort.js) |
