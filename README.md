@@ -35,7 +35,7 @@ Repositório para implementar algoritmos e estrutura de dados
 | [Passeio do cavalo](https://pt.wikipedia.org/wiki/Problema_do_cavalo) | Python | Java | C/C++ | Javascript |
 | [Torre de Hanói](https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i) | Python | Java | [C/C++](src/c/hanoi.c) | Javascript |
 | [converterBase](https://panda.ime.usp.br/pythonds/static/pythonds_pt/03-EDBasicos/08-DecimalParaBinario.html#:~:text=Mas%20como%20podemos%20facilmente%20converter,um%20inteiro%20maior%20de%200.) | Python | [Java](src/java/converterBase.java) | C/C++ | Javascript |
-| [inverterDigitos]() | Python | [Java](src/java/inverterDigitos.java) | C/C++ | Javascript 
+| [inverterDigitos]() | Python | [Java](src/java/inverterDigitos.java) | [C/C++](src/c/inverterDigitos.c) | Javascript 
 
 ### Busca
 
